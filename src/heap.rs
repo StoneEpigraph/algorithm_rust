@@ -194,19 +194,9 @@ fn test_empty_heap() {
 
 #[test]
 fn test_build_and_fast_build() {
-    /**
-           7
-       6        5
-    4    1    2    3
-     */
     // let heap1 = Heap::build(vec![3,2,1,4,5,6,7], HeapType::Max);
     let heap1 = Heap::build(vec![1,12,5,7,3,4], HeapType::Max);
-
-    /**
-           7
-       5        6
-    4    2    3    1
-     */
+    
     // let heap2 = Heap::fast_build(vec![3,2,1,4,5,6,7], HeapType::Max);
     let heap2 = Heap::build(vec![1,12,5,7,3,4], HeapType::Max);
     println!("heap1: {:?}", heap1);

@@ -1,0 +1,10 @@
+mod bubble;
+mod bucket;
+mod comb;
+mod heap;
+mod heap2;
+mod heap_sort;
+mod merge_sort;
+mod quick;
+mod radix;
+mod select_sort;
